@@ -11,30 +11,42 @@ jobs:
 
     steps:
     - uses: actions/checkout@master
+    
     - name: Set up JDK 1.8
       uses: actions/setup-java@master
       with:
         java-version: 1.8
+        
     - name: Build with Maven
       run: mvn package --file pom.xml
+      
     - name: git config
-      run: git config --global user.email "sandesh.1rn14ec126@gmail.com" && git config --global user.name "sandesh2027"
+      run: git config --global user.email "pramodhkumarm97@gmail.com" && git config --global user.name "PramodhKumarM97"
+      
     - name : git add and commit 
-      run : git add . && git commit -m "commit msg added"
+      run : git add . && git commit -m "Files added"
+      
     - name: remote name
       run: git remote -v >> new.txt
+      
     - name : display
       run : cat new.txt
+      
     - name : git push 
-      run : git push https://sandesh2027:DreamGoal%232030@github.com/sandesh2027/CodeDevOps/ HEAD:master
+      run : git push https://github.com/PramodhKumarM97/Docker_CI_CD_With_Sample_Project/ HEAD:master
+      
     - name : deploy
-      run : curl -T "target/addressbook.war" "http://sandesh:123456@97a7efd3.ngrok.io/manager/text/deploy?path=/addressbook&update=true"
+      run : curl -T "target/addressbook.war" "http://admin:123456@2b5c752c.ngrok.io/manager/text/deploy?path=/addressbook&update=true"
+      
     - name : change directory
       run : cd /home
+      
     - name : update
       run : sudo apt-get update
+      
     - name : install docker
       run : sudo apt-get install docker
+      
     - name : test
       run : sudo docker run hello-world
     
