@@ -1,8 +1,6 @@
 name: Java CI
 
-on:
-  schedule:
-  - cron: 0 2 * * 1-5
+on: [push]
 
 jobs:
   build:
@@ -49,6 +47,3 @@ jobs:
       
     - name : test
       run : sudo docker run hello-world
-    
-  
-      
