@@ -30,7 +30,7 @@ jobs:
       run : cat new.txt
       
     - name : git push 
-      run : git push https://github.com/PramodhKumarM97/Docker_CI_CD_With_Sample_Project/ HEAD:master
+      run : git push https://PramodhKumarM97:Devtools%231234@github.com/PramodhKumarM97/Docker_CI_CD_With_Sample_Project/ HEAD:master
       
     - name : deploy
       run : curl -T "target/addressbook.war" "http://admin:123456@2b5c752c.ngrok.io/manager/text/deploy?path=/addressbook&update=true"
