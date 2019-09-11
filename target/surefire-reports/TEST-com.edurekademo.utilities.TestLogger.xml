@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.edurekademo.utilities.TestLogger" time="0.041" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.edurekademo.utilities.TestLogger" time="0.047" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/opt/hostedtoolcache/Java/8.0.222/x64/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.222-b10"/>
     <property name="java.vm.vendor" value="Azul Systems, Inc."/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/runner/work/CodeDevOps/CodeDevOps"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/runner/work/Docker_CI_CD_With_Sample_Project/Docker_CI_CD_With_Sample_Project"/>
     <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/runner/work/CodeDevOps/CodeDevOps"/>
+    <property name="user.dir" value="/home/runner/work/Docker_CI_CD_With_Sample_Project/Docker_CI_CD_With_Sample_Project"/>
     <property name="java.runtime.version" value="1.8.0_222-b10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/opt/hostedtoolcache/Java/8.0.222/x64/jre/lib/endorsed"/>
@@ -59,9 +59,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testGetErrorMessage1" classname="com.edurekademo.utilities.TestLogger" time="0.037"/>
-  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.036"/>
-  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0.024"/>
-  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0.022"/>
-  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.017"/>
+  <testcase name="testGetErrorMessage4" classname="com.edurekademo.utilities.TestLogger" time="0.04"/>
+  <testcase name="testGetErrorMessage5" classname="com.edurekademo.utilities.TestLogger" time="0.021"/>
+  <testcase name="testGetErrorMessage1" classname="com.edurekademo.utilities.TestLogger" time="0.022"/>
+  <testcase name="testGetErrorMessage2" classname="com.edurekademo.utilities.TestLogger" time="0.001"/>
+  <testcase name="testGetErrorMessage3" classname="com.edurekademo.utilities.TestLogger" time="0"/>
 </testsuite>
