@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v1
     
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag sandesh2026/addressbook:v0.2
+      run: docker build . --file Dockerfile --tag pramodhkumarm97/addressbook:v0.2
       
     - name: Docker credential
       run: docker login docker.io --username=pramodhkumarm97 --password=123456789
