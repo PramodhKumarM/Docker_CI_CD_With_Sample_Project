@@ -2,7 +2,7 @@
 import java.net.URL
 node{
     stage('git checkout'){
-        git 'https://github.com/GaneshBabu2021/DevOpsClassCodes.git'
+        git 'https://github.com/PramodhKumarM/Docker_CI_CD_With_Sample_Project.git'
     }
     stage('AB Compile'){
         withMaven(maven:'my maven'){
